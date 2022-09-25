@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page</title>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .head{
+            /* width:100vw; */
+            height:150px;
+            background-color:rgb(25, 188, 156);
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+           /* padding:45px; */
+           color:white;
+           /* width:250vh; */
+        }
+        .head h1{
+            margin-bottom: 0.6rem;
+        }
+        .navbar{
+            background-color: black;
+          
+        }
+        .navbar a{
+            text-decoration: none;
+            padding:0.5rem;
+            color:white;
+
+        }
+        .section2-container{
+            display: flex;
+            
+        }
+        .sub-container1{
+            width:32%;
+            background-color: rgb(233, 233, 233);
+            /* flex:1; */
+            padding:1rem;
+
+        }
+
+        .sub-container2{
+            /* width:70%; */
+            margin:1rem;
+            /* flex:2; */
+
+        }
+         h3,h5,h2{
+            margin-bottom: 0.5rem;
+            margin-top: 0.7rem;
+        }
+        img{
+            margin:0.8rem 0 0.8rem 0;
+            width:100%;
+            height:150px;
+        }
+        .sub-container2-para{
+            margin-bottom: 0.4rem;
+        }
+        .footer{
+           height:6rem;;
+           background-color: rgb(192, 191, 191);
+            text-align: center;
+            padding:1.5rem;
+
+        }
+
+        @media only screen and (max-width: 840px) {
+
+         
+            .section2-container{
+            display:block;
+            
+        }
+
+        .sub-container1{
+            width:100%;
+           
+
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <section class="head">
+        <h1>My Website</h1>
+        <p>With a flexible layout</p>
+    </section>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="section2-container">
+        <div class="sub-container1">
+            <h2>About me</h2>
+            <h5>Photo of me</h5>
+
+            <img src="https://via.placeholder.com/350x130" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, itaque.</p>
+            <h3>More text</h3>
+
+            <p>Lorem ipsum dolor sit.</p>
+            <img src="https://via.placeholder.com/350x130" alt="image">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptate.</p>
+            <h3>More text</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <img src="https://via.placeholder.com/350x60" alt="">
+            <img src="https://via.placeholder.com/350x60" alt="">
+            <img src="https://via.placeholder.com/350x60" alt="">
+        </div>
+        <div class="sub-container2">
+            <h2>Title Heading</h2>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <img src="https://via.placeholder.com/800x130" alt="">
+            <p class="sub-container2-para
+            ">some text</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolores. Fuga provident non libero saepe, quibusdam ad nisi deserunt asperiores aspernatur quisquam maxime hic. Eius?</p>
+            <h2>Title Heading</h2>
+            <h5>Lorem ipsum dolor sit.</h5>
+            <img src="https://via.placeholder.com/800x130" alt="">
+
+            <p class="sub-container2-para
+            ">some text</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolores. Fuga provident non libero saepe, quibusdam ad nisi deserunt asperiores aspernatur quisquam maxime hic. Eius?</p>
+            <h2>Title Heading</h2>
+
+            <h5>Lorem ipsum dolor sit.</h5>
+            <img src="https://via.placeholder.com/800x130" alt="">
+
+            <p  class="sub-container2-para
+            ">some text</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolores. Fuga provident non libero saepe, quibusdam ad nisi deserunt asperiores aspernatur quisquam maxime hic. Eius?</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>
